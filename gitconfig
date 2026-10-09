@@ -60,5 +60,10 @@
 [init]
   defaultBranch = master
 [user]
-	email = baptiste.viu@gmail.com
+	email = Baptistedata@users.noreply.github.com
 	name = baptiste viu
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
