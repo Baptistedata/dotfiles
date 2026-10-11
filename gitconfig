@@ -60,7 +60,7 @@
 [init]
   defaultBranch = master
 [user]
-	email = Baptistedata@users.noreply.github.com
+	email = 43266399+Baptistedata@users.noreply.github.com
 	name = baptiste viu
 [filter "lfs"]
 	required = true
